@@ -1,0 +1,14 @@
+.header{
+  display: flex;
+  position: fixed;
+  flex: row;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+.hamburger-menu{
+  height: 28px;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+.youtube-logo

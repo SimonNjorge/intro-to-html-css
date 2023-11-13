@@ -1,0 +1,72 @@
+.subscribe-button{
+    background-color: rgb(204, 5, 5);
+    color: white;
+    border-radius: 15;
+    padding-left: 1opx;
+    padding-right: 1opx;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    align-items: top;
+    border: none;
+    cursor: pointer;
+}
+.subscribe-button:hover
+{opacity: 0.8;
+    transition: 1s;
+}
+.subscribe-button:active{
+    background-color: rgb(0, 0, 0);
+}
+.join-button{
+    background-color: white;
+    color: rgb(21, 101, 204);
+    height: 30px;
+    width: 80px;
+    margin-left: 8px;
+    border: rgb(45, 132, 214);
+    border-width: 1px;
+    border-radius: 8px;
+    transition: background-color 1s, color 1s;
+    cursor: pointer;
+}
+.join-button:hover{
+    background-color: rgb(0, 00, 235);
+    color: white;
+}
+.tweet-button{
+    background-color: rgb(29, 221, 235);
+    color: white;
+    font-weight: bold;
+    font size: 35px;
+    height: 36px;
+    width: 60px;
+    border-radius: 18px;
+    border: none;
+    box-shadow: 10 10 10 rgba ( 0,0,  0, 1)
+}
+.Apple-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+    font-size: large;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:fit-content ;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+
+ } 
+ .sph{
+    color:black;
+   
+    cursor: pointer;
+
+ }
+ .sph:hover
+ {
+    text-decoration: underline;
+
+ }

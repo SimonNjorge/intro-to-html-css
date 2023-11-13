@@ -1,0 +1,44 @@
+
+@media(max-width:1200px)
+{.sidebar{position: fixed;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+     left: 0;
+     top:57px;
+     width: 75px;
+     background-color: white;
+     margin-top: 20px;}
+.Home {display: flex;
+      flex-direction: column; 
+      height : 75px;
+      align-items: center;}
+.icons {height: 28px;}
+.text{font-size: 10px;
+      font-family: Arial;}
+.Home:hover
+      {background-color: rgb(228, 222, 222);}     
+}
+      
+@media(min-width:1200px){
+      .sidebar{position: fixed;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+           left: 0;
+           top:57px;
+           width: 110px;
+           background-color: white;
+           margin-top: 20px;}
+      .Home{display: flex;
+            margin-bottom: 5px;
+      align-items: center;}
+      .icons{height: 38px;
+             margin-right: 10px;}
+      .text{font-size: 15px;
+            font-family: Arial;}
+      .Home:hover
+            {background-color: rgb(228, 222, 222);}
+}
+
+      

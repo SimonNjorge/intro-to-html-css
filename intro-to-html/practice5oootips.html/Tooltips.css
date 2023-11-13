@@ -1,0 +1,73 @@
+.cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.text{
+  font-size: large;
+  font-weight: 700;
+}
+.Subscribe-button{
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 6px 3px ;
+    cursor: pointer;
+    height: 40px;
+    margin-top: 18px;
+    border: 1px;
+}
+.js-is-subscribed{
+    background-color: black;
+    color: white;
+}
+
+.Submit-button{
+    background-color: rgb(71, 166, 204);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 40px;
+    margin-top: 18px;
+    border: 1px;
+    border-radius:30px;
+}
+.Edit-button{
+    background-color: rgb(201, 219, 32);
+    color: black;
+    margin:20px;
+    cursor:pointer;
+    padding: 4px;height: 40px;
+    margin-top: 18px;
+    border-style: none;
+
+}
+.Subscribe-button,
+.Submit-button,
+.Edit-button{
+    position: relative;
+}
+.tooltip
+{
+    position: absolute;
+    bottom: -32px;
+    color: white;
+    background-color: gray;
+    padding: 4px;
+    opacity:0;
+    pointer-events: none;
+    white-space: nowrap;
+    transition: opacity 0.35s;
+}
+.Subscribe-button:hover
+ .tooltip,
+.Submit-button:hover 
+.tooltip,
+.Edit-button:hover
+.tooltip{
+    opacity: 1;
+
+}
+/*.Subscribe-button:hover{ background-color: rgb(233, 27, 27);}*/
+.Submit-button:hover{background-color: rgb(71, 100, 204);}
+.Edit-button:hover{background-color:rgb(136, 255, 0)}

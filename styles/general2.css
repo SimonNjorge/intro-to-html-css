@@ -1,0 +1,5 @@
+.Body{padding-top: 60px;
+      padding-bottom: 1000px;
+      padding-left: 80px;}
+@media(min-width:1200px)
+{.Body{padding-left: 145px;}}

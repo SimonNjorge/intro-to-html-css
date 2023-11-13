@@ -1,0 +1,4 @@
+.Prheader{display: flex;}
+.left-section{flex:1}
+.middle-section{flex:1}
+.right-section{flex:1}

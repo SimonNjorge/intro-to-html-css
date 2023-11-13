@@ -1,0 +1,1 @@
+console.log('new thing its that you got to accept this fact just the way it iis so that you dont get screwed with all this things and those others on');
